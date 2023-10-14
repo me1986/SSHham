@@ -3,9 +3,7 @@
         <li class="nav-item" role="presentation">
             <a href="general" class="nav-link {{ request()->segment(3) === 'general' ? 'active' : '' }}" type="button" role="tab" aria-selected="false" tabindex="-1"><i class="ti ti-settings"></i>&nbsp;&nbsp;{{__('setting-general-menu')}}</a>
         </li>
-        <li class="nav-item" role="presentation">
-            <a href="https://github.com/Alirezad07/Xcs-Multi-Management-XPanel" target="_blank" class="nav-link" type="button" role="tab" aria-selected="false" tabindex="-1"><i class="ti ti-box-multiple"></i>&nbsp;&nbsp;{{__('setting-multiserver-menu')}}</a>
-        </li>
+
         <li class="nav-item" role="presentation">
             <a href="backup" class="nav-link {{ request()->segment(3) === 'backup' ? 'active' : '' }}" type="button" role="tab" aria-selected="false" tabindex="-1"><i class="ti ti-database"></i>&nbsp;&nbsp;{{__('setting-backup-menu')}}</a>
         </li>
