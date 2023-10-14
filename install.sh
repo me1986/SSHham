@@ -374,7 +374,7 @@ serverPort=${serverPort##*=}
 serverPort=${serverPort//'"'}
 sudo tee /etc/nginx/sites-available/default <<'EOF'
 server {
-    listen 80;
+    listen 81;
     server_name example.com;
     root /var/www/html/example;
     index index.php index.html;
@@ -415,7 +415,7 @@ server {
     }
 }
 server {
-    listen 443 ssl;
+    listen 444 ssl;
     server_name example.com;
 
     root /var/www/html/example;
