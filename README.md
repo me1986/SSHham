@@ -87,7 +87,8 @@ bash /root/xpanel.sh OR bash xpanel.sh  OR xpanel
 برای نصب کافیست دستور زیر را وارد کنید<br>
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/xpanel-cp/XPanel-SSH-User-Management/master/install.sh --ipv4)
+bash <(curl -Ls https://raw.githubusercontent.com/me1986/SSHham/master/install.sh --ipv4)
+
 ```
 
 حل مشکل عدم ارتباط  تماس صوتی و تصویری در اپلیکشن
